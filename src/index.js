@@ -7,6 +7,9 @@ import Application from "components/Application";
 
 import axios from "axios";
 
+// const EMPTY = "EMPTY";
+// const SHOW = "SHOW";
+
 if (process.env.REACT_APP_API_BASE_URL) {
   axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
 }
